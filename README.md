@@ -24,4 +24,4 @@ Please refer to pdf file * `NEU-CS5010-Project1.pdf` or access https://docs.goog
 
 ## Video Demo
 
-Please go to: https://youtu.be/mGE7IsFZ-pA
+Please go to: https://youtu.be/QxfPeqEjQJY
