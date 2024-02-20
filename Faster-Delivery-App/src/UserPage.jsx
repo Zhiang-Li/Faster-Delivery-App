@@ -84,19 +84,19 @@ class UserPage extends Component {
   render() {
     return (
       <div className="container mt-4" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between" }}>
-        <div style={{ flex: "1 0 48%", marginBottom: "20px" }}>
+        <div  className="col-md-5 mx-auto mb-4">
           <h2 style={{ color: "red" }}>Post a Delivery Errand</h2>
           <PostErrandForm onCreateInteraction={this.onCreateInteraction} />
         </div>
-        <div style={{ flex: "1 0 48%", marginBottom: "20px" }}>
+        <div className="col-md-5 mx-auto mb-4" >
           <h2 style={{ color: "gold" }}>Errand Board</h2>
           <ErrandBoard errands={this.state.errands} onAcceptErrand={this.onAcceptErrand} />
         </div>
-        <div style={{ flex: "1 0 48%", marginBottom: "20px" }}>
+        <div className="col-md-5 mx-auto mb-4">
           <h2 style={{ color: "orange" }}>Accepted Errand</h2>
           <AcceptedBoard errands={this.state.accepted_errands} onCancelErrand={this.onCancelErrand} onCompleteErrand={this.onCompleteErrand} />
         </div>
-        <div style={{ flex: "1 0 48%", marginBottom: "20px" }}>
+        <div className="col-md-5 mx-auto mb-4">
           <h2 style={{ color: "purple" }}>Completed Errand</h2>
           <CompletedBoard errands={this.state.completed_errands} />
         </div>

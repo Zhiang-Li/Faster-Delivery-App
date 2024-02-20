@@ -118,8 +118,8 @@ export default class ErrandCard extends Component {
                   )}
                   {cardType === "accepted" && (
                     <>
-                      <button onClick={() => onCancel(errand.tag)} style={{ display: "block", marginBottom: "10px", width: "120px", height: "40px", backgroundColor:"red"}}>Cancel</button>
-                      <button onClick={() => onComplete(errand.tag)} style={{width: "120px", height: "40px"}}>Complete</button>
+                      <button onClick={() => onCancel(errand.tag)} style={{ display: "block", marginBottom: "10px", width: "90px", height: "40px", backgroundColor:"red"}}>Cancel</button>
+                      <button onClick={() => onComplete(errand.tag)} style={{width: "90px", height: "40px"}}>Complete</button>
                     </>
                   )}
                   {cardType === "completed" && (
